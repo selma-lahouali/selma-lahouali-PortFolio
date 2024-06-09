@@ -1,0 +1,21 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+}
+.home {
+  color: white;
+  word-spacing: 0.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+}
+.home p {
+  font-size: 1.6vw;
+  line-height: 5vh;
+  color: rgb(229, 228, 228);
+  font-family: "Times New Roman", Times, serif;
+}
+#paragraph-1 {
+  margin-bottom: -1vh;
+}

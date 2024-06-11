@@ -12,9 +12,10 @@
 }
 .home p {
   font-size: 1.6vw;
+  font-family: "Times New Roman", Times, serif;
   line-height: 5vh;
   color: rgb(229, 228, 228);
-  font-family: "Times New Roman", Times, serif;
+  word-spacing: 0.7vw;
 }
 #paragraph-1 {
   margin-bottom: -1vh;

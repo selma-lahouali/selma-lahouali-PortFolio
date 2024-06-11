@@ -1,4 +1,5 @@
 import "./Home.css";
+import cv from "../../assets/CV-selma.pdf";
 const Home = () => {
   return (
     <>
@@ -21,6 +22,9 @@ const Home = () => {
             Whether through elegant designs, intuitive interfaces, or seamless
             functionality, I aim to leave a lasting impact with my work.
           </p>
+          <a href={cv} target="_blank">
+            RESUME
+          </a>
         </div>
       </div>
     </>

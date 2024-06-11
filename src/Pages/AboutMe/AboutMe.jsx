@@ -1,7 +1,9 @@
+import Technologies from "../../Components/Technologies/Technologies";
+
 const AboutMe = () => {
   return (
     <div id="about-me" className="section">
-      this is the about me page
+      <Technologies></Technologies>
     </div>
   );
 };

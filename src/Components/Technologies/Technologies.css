@@ -1,0 +1,53 @@
+.technologies {
+  color: white;
+}
+.front-end-grid,
+.back-end-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.technologies h1 {
+  font-size: 1.8vw;
+  text-decoration: underline 1.5px dashed white;
+  text-underline-offset: 1vh;
+  letter-spacing: 0.13vw;
+}
+.technologies p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5vw;
+  line-height: 5vh;
+  word-spacing: 0.3vw;
+  width: 92vw;
+  color: rgb(229, 228, 228);
+}
+.front-end h2,
+.back-end h2 {
+  font-size: 1.6vw;
+  text-decoration: underline 1px dashed white;
+  text-underline-offset: 1vh;
+  letter-spacing: 0.13vw;
+}
+
+.technologies img {
+  width: 3vw;
+}
+.technologies .image {
+  width: 5vw;
+}
+.front-end p,
+.back-end p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  font-size: 1.5vw;
+  background-color: rgb(25, 91, 150);
+  width: 14vw;
+  height: 11vh;
+  border-radius: 0.6vw;
+  cursor: pointer;
+}
+.front-end p:hover,
+.back-end p:hover {
+  scale: 1.1;
+}

@@ -87,7 +87,6 @@ const Technologies = () => {
               <img src={MongoDB} alt={MongoDB} className="image" /> Mongo DB
             </p>
             <p>
-              {" "}
               <img src={Mongoose} alt={Mongoose} className="image" /> Mongoose
             </p>
             <p>

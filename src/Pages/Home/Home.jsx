@@ -6,6 +6,7 @@ const Home = () => {
       <div className="home-container">
         <div id="home" className="home section">
           <h1>Hi, i'm SELMA LAHOUALI</h1>
+          <h1>full-stack web developer</h1>
           <p id="paragraph-1">
             I'm a young and passionate full-stack web developer, constantly
             seeking opportunities to improve and learn new skills. I prioritize
@@ -22,8 +23,8 @@ const Home = () => {
             Whether through elegant designs, intuitive interfaces, or seamless
             functionality, I aim to leave a lasting impact with my work.
           </p>
-          <a href={cv} target="_blank">
-            RESUME
+          <a href={cv} target="_blank" className="resume">
+            Resume
           </a>
         </div>
       </div>

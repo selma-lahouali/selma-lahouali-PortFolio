@@ -3,6 +3,10 @@ import emailjs from "emailjs-com";
 import "./ContactMe.css";
 import SuccessNotification from "../../Components/Notification/SuccessNotification";
 import FailNotification from "../../Components//Notification/FailNotification";
+// import Facebook from "../../assets/Facebook.png";
+import WhatApp from "../../assets/WhatApp.png";
+import Github from "../../assets/Github.png";
+import LinkedIn from "../../assets/LinkedIn.png";
 const ContactMe = () => {
   // success or fail to delet product notifications
   const [successNotification, setSuccessNotification] = useState(null);
@@ -39,7 +43,7 @@ const ContactMe = () => {
       return () => clearTimeout(timer);
     }
   }, [successNotification]);
-  // if the prodcut deletion fail / if the prodcut deletion fail / if the prodcut deletion fail
+  // if the email sending fail / if the email sending fail / if the email sending fail
   useEffect(() => {
     if (failNotification) {
       const timer = setTimeout(() => {
@@ -48,6 +52,11 @@ const ContactMe = () => {
       return () => clearTimeout(timer);
     }
   }, [failNotification]);
+  const handleMailto = (event) => {
+    event.preventDefault();
+    window.location.href =
+      "mailto:lahoualiselma@gmail.com?subject=Hello%20from%20your%20App&body=I%20would%20like%20to%20contact%20you%20about%20...";
+  };
   return (
     <>
       <div id="contact-me" className=" section">
@@ -55,9 +64,9 @@ const ContactMe = () => {
           <SuccessNotification message={successNotification} />
         )}
         {failNotification && <FailNotification message={failNotification} />}
-        <div className="contactUs">
-          <div className="contactUs-intro">
-            <h1>CONTACT ME : </h1>
+        <div className="contactMe">
+          <div className="contactMe-intro">
+            <h1>Contact Me : </h1>
             <p>
               If you're interested in hiring me, collaborating on a project, or
               if you have any questions, please feel free to reach out. I'd love
@@ -65,7 +74,7 @@ const ContactMe = () => {
             </p>
           </div>
           <form
-            className="contactUs-form"
+            className="contactMe-form"
             ref={formRef}
             onSubmit={handleSubmit}
           >
@@ -90,8 +99,36 @@ const ContactMe = () => {
               placeholder="Please Enter your message"
               name="message"
             />
-            <button type="submit">Send</button>
+            <div className="sendEmail">
+              <h3 onClick={handleMailto}>Send me email directly</h3>
+              <button type="submit">Send</button>
+            </div>
           </form>
+        </div>
+        <div className="contact-info">
+          <h1>Email</h1>
+          <p>lahoualiselma@gmail.com</p>
+          <h1>Address</h1>
+          <a
+            href="https://maps.app.goo.gl/tpqgdJh5PTug3CcPA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Bologhine,Algiers Algeria
+          </a>
+          <h1>Socials</h1>
+          <div className="social">
+            {/* <img src={Facebook} alt={Facebook} /> */}
+            <img src={WhatApp} alt={WhatApp} />
+            <a
+              href="https://github.com/selma-lahouali"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Github} alt={Github} />
+            </a>
+            <img src={LinkedIn} alt={LinkedIn} />
+          </div>
         </div>
       </div>
     </>

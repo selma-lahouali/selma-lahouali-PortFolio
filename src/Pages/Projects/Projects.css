@@ -1,0 +1,59 @@
+#projects h1 {
+  color: white;
+  font-size: 1.8vw;
+  text-decoration: underline 1.5px dashed white;
+  text-underline-offset: 1vh;
+  letter-spacing: 0.13vw;
+  margin-bottom: 2vh;
+  position: relative;
+  top: 10vh;
+}
+.myProjects {
+  display: flex;
+  gap: 5vw;
+  margin-right: 5vw;
+  position: relative;
+  top: 15vh;
+}
+.project img {
+  width: 100%;
+  border-radius: 1vw;
+}
+.project {
+  width: 50vw;
+  color: white;
+  border-radius: 1vw;
+  border: 2px solid rgb(20, 207, 236);
+  background-color: rgb(2, 9, 8);
+  padding: 1vh;
+}
+.project-info {
+  padding: 0vh 1vw;
+}
+.project-info h2 {
+  font-size: 1.5vw;
+  text-decoration: underline 1px dashed white;
+  text-underline-offset: 0.5vh;
+}
+.project-info p {
+  font-size: 1.3vw;
+  margin-top: -1.5vh;
+  margin-bottom: 2vh;
+}
+.project-info button {
+  font-size: 1vw;
+  font-weight: bold;
+  background-color: rgb(20, 207, 236);
+  color: black;
+  width: 8vw;
+  height: 4vh;
+  border-radius: 0.4vw;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  margin-top: -1vh;
+  margin-bottom: 0.5vh;
+}
+.project-info button:hover {
+  scale: 1.1;
+}

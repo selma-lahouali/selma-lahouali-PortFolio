@@ -1,5 +1,7 @@
 .technologies {
   color: white;
+  position: relative;
+  top: 10vh;
 }
 .front-end-grid,
 .back-end-grid {

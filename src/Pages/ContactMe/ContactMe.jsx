@@ -119,7 +119,9 @@ const ContactMe = () => {
           <h1>Socials</h1>
           <div className="social">
             {/* <img src={Facebook} alt={Facebook} /> */}
-            <img src={WhatApp} alt={WhatApp} />
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img src={WhatApp} alt={WhatApp} />
+            </a>
             <a
               href="https://github.com/selma-lahouali"
               target="_blank"
@@ -127,7 +129,9 @@ const ContactMe = () => {
             >
               <img src={Github} alt={Github} />
             </a>
-            <img src={LinkedIn} alt={LinkedIn} />
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img src={LinkedIn} alt={LinkedIn} />
+            </a>
           </div>
         </div>
       </div>

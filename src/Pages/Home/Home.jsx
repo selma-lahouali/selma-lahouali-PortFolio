@@ -1,5 +1,5 @@
 import "./Home.css";
-import cv from "../../assets/CV-selma.pdf";
+import cv from "../../assets/CV-LAHOUALI-Selma.pdf";
 const Home = () => {
   return (
     <>

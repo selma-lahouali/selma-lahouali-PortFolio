@@ -1,0 +1,32 @@
+.navBar-2 ul {
+  position: fixed;
+  right: 0vw;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5vw;
+  z-index: 999;
+  background-color: rgb(14, 17, 28);
+  padding-right: 3vw;
+  padding: 1vh 3vw 1vh 3vw;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  height: 7vh;
+}
+.navBar-2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4vw;
+  font-weight: bold;
+  letter-spacing: 0.05vw;
+  padding: 1.2vh 1vw;
+  border-radius: 5px;
+}
+
+.navBar-2 a:hover {
+  background-color: rgb(21, 108, 185);
+  padding: 1.2vh 1vw;
+  border-radius: 5px;
+  transition: 0.1s;
+}

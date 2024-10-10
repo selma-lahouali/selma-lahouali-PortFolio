@@ -1,0 +1,33 @@
+.creacy-proj {
+  position: relative;
+  top: 15vh;
+  display: flex;
+  flex-direction: column;
+}
+.creacy-title {
+  color: rgb(229, 228, 228);
+  font-size: 1.8vw;
+  text-decoration: underline 1.5px dashed white;
+  text-underline-offset: 1vh;
+  letter-spacing: 0.13vw;
+}
+.creacy-text {
+  width: 90vw;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5vw;
+  line-height: 5vh;
+  word-spacing: 0.3vw;
+  color: rgb(229, 228, 228);
+}
+.creacy-img {
+  position: relative;
+  top: 17vh;
+  display: flex;
+  gap: 5vw;
+  margin-right: 5vw;
+  flex-wrap: wrap;
+  margin-bottom: 21vh;
+}
+.creacy-img img {
+  width: 40vw;
+}

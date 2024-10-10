@@ -6,10 +6,17 @@ import App from "./App";
 import AboutMe from "./Pages/AboutMe/AboutMe";
 import Projects from "./Pages/Projects/Projects";
 import ContactMe from "./Pages/ContactMe/ContactMe";
+import Creacy from "./Pages/Projects/CREACY/Creacy";
+import Home from "./Pages/Home/Home";
+import NotFound from "./Components/NotFound/NotFound";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+  },
+  {
+    path: "/home",
+    element: <Home></Home>,
   },
   {
     path: "/about",
@@ -20,8 +27,16 @@ const router = createBrowserRouter([
     element: <Projects></Projects>,
   },
   {
+    path: "/pr-Creacy",
+    element: <Creacy></Creacy>,
+  },
+  {
     path: "/contact",
     element: <ContactMe></ContactMe>,
+  },
+  {
+    path: "*",
+    element: <NotFound></NotFound>,
   },
 ]);
 

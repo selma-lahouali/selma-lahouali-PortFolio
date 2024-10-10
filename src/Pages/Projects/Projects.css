@@ -17,10 +17,11 @@
 }
 .project img {
   width: 100%;
+  height: 50vh;
   border-radius: 1vw;
 }
 .project {
-  width: 50vw;
+  width: 45vw;
   color: white;
   border-radius: 1vw;
   border: 2px solid rgb(20, 207, 236);

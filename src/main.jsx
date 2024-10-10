@@ -27,7 +27,7 @@ const router = createBrowserRouter([
     element: <Projects></Projects>,
   },
   {
-    path: "/pr-Creacy",
+    path: "/Creacy",
     element: <Creacy></Creacy>,
   },
   {

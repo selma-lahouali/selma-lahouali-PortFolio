@@ -19,7 +19,7 @@ const Projects = () => {
                 marketplace, plus integrated online payment powered by Stripe
                 and real-time chat functionality implemented with Socket.io
               </p>
-              <a href="/pr-Creacy" target="_blank" rel="noopener noreferrer">
+              <a href="/Creacy" target="_blank" rel="noopener noreferrer">
                 <button>Learn More</button>
               </a>
             </div>

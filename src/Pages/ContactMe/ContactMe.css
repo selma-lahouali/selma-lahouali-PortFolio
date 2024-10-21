@@ -1,143 +1,138 @@
 #contact-me {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
-  gap: 0vw;
-  margin-top: 2vh;
+  margin-top: 0.8rem;
+  padding-bottom: 2rem;
+  gap: 5rem;
 }
 .contactMe {
-  width: 60vw;
   color: white;
-  margin-bottom: 5vh;
+  margin-bottom: 2rem;
   position: relative;
-  top: 15vh;
+  top: 5.75rem;
+  padding-bottom: 2rem;
 }
 .contactMe-intro h1 {
-  font-size: 1.8vw;
-  text-decoration: underline 1.5px dashed white;
-  text-underline-offset: 1vh;
-  letter-spacing: 0.13vw;
-  margin-bottom: 2vh;
+  font-size: 1.5rem;
+  text-decoration: underline 0.1rem dashed white;
+  text-underline-offset: 0.6rem;
+  letter-spacing: 0.05rem;
+  margin-bottom: 1rem;
 }
 .contactMe p {
   font-family: "Times New Roman", Times, serif;
-  font-size: 1.5vw;
-  line-height: 5vh;
-  word-spacing: 0.3vw;
-  width: 50vw;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  word-spacing: 0.2rem;
+  /* max-width: 40rem; */
   color: rgb(229, 228, 228);
-  padding-bottom: 1vh;
+  padding-bottom: 0.5rem;
 }
 .contactMe-form {
   display: flex;
   flex-direction: column;
-  border: 2px solid white;
-  border-radius: 0.8vw;
-  padding: 1vw 2vw;
-  margin-top: 3vh;
-  width: 40vw;
+  border: 0.15rem solid rgb(255, 255, 255);
+  border-radius: 0.7rem;
+  padding: 0.9rem 1.8rem;
+  margin-top: 1.3rem;
+  /* min-width: 34.1rem; */
 }
 .contactMe-form input {
-  width: 28vw;
-  height: 6vh;
+  max-width: 23.8rem;
+  min-height: 2.3rem;
   border: none;
-  border-radius: 0.5vw;
-  padding-left: 0.6vw;
-  border: 1px solid white;
+  border-radius: 0.4rem;
+  padding-left: 0.5rem;
+  border: 0.12rem solid white;
   background-color: rgb(224, 223, 223);
   color: black;
-  margin-bottom: 3vh;
-  font-size: 1vw;
+  margin-bottom: 1.1rem;
+  font-size: 1rem;
 }
 .contactMe-form input::placeholder {
   color: black;
-  font-size: 1vw;
+  font-size: 0.9rem;
 }
 .contactMe-form input:focus {
-  outline: 0.2vw solid white;
+  outline: 0.2rem solid rgb(20, 207, 236);
 }
 .contactMe-form textarea {
-  width: 39vw;
-  height: 18vh;
+  max-width: 33rem;
+  min-height: 7rem;
   border: none;
-  border-radius: 0.5vw;
-  padding-left: 0.6vw;
-  padding-top: 1.5vh;
-  border: 1px solid white;
+  border-radius: 0.4rem;
+  padding-left: 0.5rem;
+  padding-top: 0.6rem;
+  border: 0.12rem solid white;
   background-color: rgb(196, 196, 196);
-  margin-bottom: 3vh;
-  font-size: 1vw;
+  margin-bottom: 1.1rem;
+  font-size: 1rem;
   color: black;
 }
 .contactMe-form textarea::placeholder {
   color: black;
-  font-size: 1vw;
+  font-size: 0.9rem;
 }
 .contactMe-form textarea:focus {
-  outline: 0.2vw solid #adb5bd;
+  outline: 0.2rem solid rgb(20, 207, 236);
 }
 .contactMe-form label {
-  margin-bottom: 2vh;
-  font-size: 1.25vw;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
   font-weight: bold;
-  word-spacing: 0.3vw;
+  word-spacing: 0.1rem;
 }
 .contactMe-form button {
-  background-color: rgb(25, 91, 150);
-  /* background-color: rgb(20, 207, 236); */
+  background-color: rgb(20, 207, 236);
   border: none;
-  border-radius: 0.5vw;
-  width: 15vw;
-  height: 5vh;
-  color: white;
-  font-size: 1.2vw;
+  border-radius: 0.4rem;
+  width: 10rem;
+  height: 1.9rem;
+  color: black;
+  font-size: 1.05rem;
   font-weight: bold;
-  letter-spacing: 0.04vw;
   cursor: pointer;
 }
 .sendEmail {
   display: flex;
   align-items: center;
-  gap: 11.6vw;
+  justify-content: space-between;
 }
 .sendEmail h3 {
   cursor: pointer;
-  text-decoration: underline 1px white;
-  text-underline-offset: 1vh;
+  text-decoration: underline 0.1rem white;
+  text-underline-offset: 0.4rem;
+  font-size: 1rem;
 }
 .sendEmail button:hover,
 .sendEmail h3:hover {
   scale: 1.1;
 }
+/* contact info */
 .contact-info {
   color: white;
 }
 .contact-info h1 {
-  font-size: 1.75vw;
-  letter-spacing: 0.08vw;
+  font-size: 1.3rem;
 }
 .contact-info p {
-  font-size: 1.5vw;
-  letter-spacing: 0.05vw;
+  font-size: 1.2rem;
 }
 .contact-info a {
-  font-size: 1.5vw;
-  letter-spacing: 0.05vw;
+  font-size: 1.2rem;
   color: white;
-  text-underline-offset: 0.74vh;
-}
-.contact-info p {
-  font-size: 1.5vw;
-  letter-spacing: 0.05vw;
+  text-underline-offset: 0.3rem;
 }
 .social {
   display: flex;
-  gap: 2vw;
+  gap: 1.7rem;
 }
 .social img {
-  width: 3vw;
+  width: 2.6rem;
   background-color: rgb(255, 255, 255);
-  border-radius: 50vw;
-  padding: 0.3vh;
+  border-radius: 50rem;
+  padding: 0.13rem;
   cursor: pointer;
 }
 .social img:hover {

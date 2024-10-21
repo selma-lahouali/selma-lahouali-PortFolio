@@ -35,11 +35,16 @@ const Creacy = () => {
           a marketplace that's not only fully operational but also scalable and
           ready for real-world use. This project showcases my ability to combine
           design, development, and real-world application of technology to build
-          a platform that meets modern market demands.
+          a platform that meets modern market demands. <br />
+          If you want to quickly try this website, feel free to use this testing
+          account. <br />
+          Email : test@gmail.com <br />
+          Password : 123456
         </p>
       </div>
-      <div className="creacy-img">
-        <img className="tttest" src={signUpPage} alt="image not found" />
+
+      <div className="creacy-grid">
+        <img src={signUpPage} alt="image not found" />
         <img src={homePage} alt="image not found" />
         <img src={cart} alt="image not found" />
         <img src={shop} alt="image not found" />

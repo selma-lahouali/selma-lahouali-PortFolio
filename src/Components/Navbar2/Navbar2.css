@@ -1,32 +1,59 @@
 .navBar-2 ul {
   position: fixed;
-  right: 0vw;
+  right: 0rem;
   display: flex;
   align-items: center;
   justify-content: end;
-  gap: 5vw;
+  gap: 4.3rem;
   z-index: 999;
   background-color: rgb(14, 17, 28);
-  padding-right: 3vw;
-  padding: 1vh 3vw 1vh 3vw;
-  margin: 0;
+  padding: 1rem 2.6rem 1rem 1.5rem;
+  margin: 0rem;
   list-style: none;
   width: 100%;
-  height: 7vh;
 }
 .navBar-2 a {
   text-decoration: none;
   color: white;
-  font-size: 1.4vw;
+  font-size: 1.1rem;
   font-weight: bold;
-  letter-spacing: 0.05vw;
-  padding: 1.2vh 1vw;
-  border-radius: 5px;
+  padding: 0.8rem 0.9rem;
+  border-radius: 0.5rem;
 }
-
 .navBar-2 a:hover {
   background-color: rgb(21, 108, 185);
-  padding: 1.2vh 1vw;
-  border-radius: 5px;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
   transition: 0.1s;
+}
+@media only screen and (max-width: 700px) {
+  .navBar-2 ul {
+    position: fixed;
+    right: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+    z-index: 999;
+    background-color: rgb(14, 17, 28);
+    padding: 1rem 0rem;
+    margin: 0rem;
+    padding-inline: 0.5rem;
+    list-style: none;
+    width: auto;
+  }
+  .navBar-2 a {
+    color: white;
+    font-size: 1rem;
+    padding: 0rem 0rem;
+    border-radius: 0.5rem;
+  }
+
+  .navBar-2 a:hover {
+    background-color: transparent;
+    padding: 0rem 0rem;
+    border-radius: 0.5rem;
+    transition: 0.1s;
+  }
 }

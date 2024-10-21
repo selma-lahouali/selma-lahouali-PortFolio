@@ -100,7 +100,7 @@ const ContactMe = () => {
               name="message"
             />
             <div className="sendEmail">
-              <h3 onClick={handleMailto}>Send me email directly</h3>
+              <h3 onClick={handleMailto}>Send me an email directly</h3>
               <button type="submit">Send</button>
             </div>
           </form>

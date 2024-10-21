@@ -1,52 +1,52 @@
 .technologies {
   color: white;
   position: relative;
-  top: 10vh;
+  top: 4rem;
 }
 .front-end-grid,
 .back-end-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  place-items: center;
 }
 .technologies h1 {
-  font-size: 1.8vw;
-  text-decoration: underline 1.5px dashed white;
-  text-underline-offset: 1vh;
-  letter-spacing: 0.13vw;
+  font-size: 1.5rem;
+  text-decoration: underline 0.1rem dashed white;
+  text-underline-offset: 0.6rem;
+  letter-spacing: 0.05rem;
 }
 .technologies p {
   font-family: "Times New Roman", Times, serif;
-  font-size: 1.5vw;
-  line-height: 5vh;
-  word-spacing: 0.3vw;
-  width: 92vw;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  word-spacing: 0.2rem;
   color: rgb(229, 228, 228);
 }
 .front-end h2,
 .back-end h2 {
-  font-size: 1.6vw;
-  text-decoration: underline 1px dashed white;
-  text-underline-offset: 1vh;
-  letter-spacing: 0.13vw;
+  font-size: 1.2rem;
+  text-decoration: underline 0.1rem dashed white;
+  text-underline-offset: 0.5rem;
+  letter-spacing: 0.1rem;
 }
 
 .technologies img {
-  width: 3vw;
+  width: 2rem;
 }
 .technologies .image {
-  width: 5vw;
+  width: 3.8rem;
 }
 .front-end p,
 .back-end p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1vw;
-  font-size: 1.5vw;
+  gap: 0.4rem;
+  font-size: 1.1rem;
   background-color: rgb(25, 91, 150);
-  width: 14vw;
-  height: 11vh;
-  border-radius: 0.6vw;
+  width: 10rem;
+  height: 4rem;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 .front-end p:hover,

@@ -3,34 +3,46 @@
 }
 .home {
   color: white;
-  word-spacing: 0.5vw;
+  word-spacing: 0.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 90vw;
-  margin-top: 14vh;
+  margin-top: 5rem;
+}
+.home h1 {
+  font-size: 1.8rem;
+  margin-bottom: -0.1rem;
 }
 .home p {
-  font-size: 1.6vw;
+  font-size: 1.2rem;
   font-family: "Times New Roman", Times, serif;
-  line-height: 5vh;
+  line-height: 1.6rem;
   color: rgb(229, 228, 228);
-  word-spacing: 0.7vw;
+  word-spacing: 0.15rem;
+  margin-top: 2rem;
 }
 #paragraph-1 {
-  margin-bottom: -1vh;
+  margin-bottom: -0.5rem;
+  }
+#paragraph-2 {
+  margin-bottom: 2.5rem;
+  }
+.documents {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
 }
 .resume {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5vw;
+  font-size: 1.2rem;
   font-weight: bold;
   background-color: rgb(20, 207, 236);
   color: black;
-  width: 11vw;
-  height: 7vh;
-  border-radius: 0.6vw;
+  width: 9rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   text-decoration: none;
 }

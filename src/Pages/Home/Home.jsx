@@ -1,5 +1,6 @@
 import "./Home.css";
 import cv from "../../assets/CV-LAHOUALI-Selma.pdf";
+import certification from "../../assets/Selma LAHOUALI-The FullStack JS Bootcamp - FR Certificate of Completion.pdf";
 const Home = () => {
   return (
     <>
@@ -23,9 +24,14 @@ const Home = () => {
             Whether through elegant designs, intuitive interfaces, or seamless
             functionality, I aim to leave a lasting impact with my work.
           </p>
-          <a href={cv} target="_blank" className="resume">
-            Resume
-          </a>
+          <div className="documents">
+            <a href={cv} target="_blank" className="resume">
+              Resume
+            </a>
+            <a href={certification} target="_blank" className="resume">
+              Certification
+            </a>
+          </div>
         </div>
       </div>
     </>

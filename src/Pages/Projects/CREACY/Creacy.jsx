@@ -41,6 +41,11 @@ const Creacy = () => {
           Email : test@gmail.com <br />
           Password : 123456
         </p>
+        <a
+          href="https://creacy.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        ><button>Visit the web site</button></a>
       </div>
 
       <div className="creacy-grid">

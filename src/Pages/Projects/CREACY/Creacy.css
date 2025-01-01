@@ -35,3 +35,19 @@
   border: 2px solid rgb(20, 207, 236);
   border-radius: 1rem;
 }
+.creacy-proj button {
+  font-size: 0.85rem;
+  font-weight: bold;
+  background-color: rgb(20, 207, 236);
+  color: black;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  margin-bottom: 0.3rem;
+}
+.creacy-proj button:hover {
+  scale: 1.1;
+}

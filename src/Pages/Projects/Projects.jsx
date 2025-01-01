@@ -1,6 +1,6 @@
 import "./Projects.css";
 import Creacy from "../../assets/Creacy.png";
-import logoSite from "../../assets/logo-site.png";
+import thePlace from "../../assets/THE-PLACE.jpg";
 const Projects = () => {
   return (
     <>
@@ -26,17 +26,17 @@ const Projects = () => {
           </div>
           {/* /////////////////////////////////////////////////////////////// */}
           <div className="project">
-            <img src={logoSite} alt={logoSite} />
+            <img src={thePlace} alt={thePlace} />
             <div className="project-info">
-              <h2>Radiance Dental Clinic</h2>
+              <h2>THE PLACE</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est
-                eligendi sapiente! Numquam reprehenderit eveniet atque, harum
-                optio neque, corrupti sit dignissimos soluta nam sapiente minus
-                odit. Animi necessitatibus tempora corporis expedita quaerat.
+                Welcome to THE PLACE, where great food meets unforgettable
+                experiences. Explore our menu of fresh, flavorful dishes crafted
+                with care, reserve your table online, or order for delivery.
+                Join us for a taste of something special!
               </p>
-              <a href="*" target="_blank" rel="noopener noreferrer">
-                <button>Learn More</button>
+              <a href="https://the-place.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <button>Visite</button>
               </a>
             </div>
           </div>

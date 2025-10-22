@@ -1,5 +1,5 @@
 import "./Home.css";
-import cv from "../../assets/CV-LAHOUALI-Selma.pdf";
+import cv from "../../assets/selma_lahouali cv.pdf";
 import certification from "../../assets/Selma LAHOUALI-The FullStack JS Bootcamp - FR Certificate of Completion.pdf";
 const Home = () => {
   return (
